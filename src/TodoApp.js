@@ -4,7 +4,7 @@ import { Button, TextField, Container, Typography, Grid, Card, CardContent, Icon
 import { Delete } from '@mui/icons-material';
 import { Box } from '@mui/material';
 
-const API_BASE_URL = 'http://52.146.33.135:8000';
+const API_BASE_URL = 'http://localhost:8080/api';
 
 const backgroundImage = process.env.PUBLIC_URL + '/background.jpg';
 
@@ -132,7 +132,7 @@ function TodoApp() {
                             margin: '15px',
                         }}
                     >
-                        Existing Tasks
+                        Existing Tasks (Test Kumar)
                     </Typography>
 
                     {tasks.map((task) => (
